@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 6969;
 
  app.use(cors({
-    origin:'http://localhost:8080',
+    origin:'https://ticket-system-nou8npmco-unity-jnr-a12c5e00.vercel.app/',
     credentials:true
  }))
 app.use(express.static('views'))
